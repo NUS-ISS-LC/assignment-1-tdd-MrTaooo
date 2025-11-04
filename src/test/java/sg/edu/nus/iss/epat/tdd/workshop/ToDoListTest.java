@@ -41,8 +41,8 @@ public class ToDoListTest  {
     @Test
     public void testGetStatus() {
         // fail("Not implemented yet");
-        toDoList.addTask(new Task("Pay bills"));
-        assertFalse("New tasks should default to incomplete", toDoList.getStatus("Pay bills"));
+        toDoList.addTask(new Task("Go gym"));
+        assertFalse("New tasks should default to incomplete", toDoList.getStatus("Go gym"));
     }
 
     @Test
